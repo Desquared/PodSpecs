@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.dependency 'ReachabilitySwift', '~> 4.3.0'
   s.dependency 'KeychainAccess', '~> 3.1.2'
   s.dependency 'RSBarcodes_Swift', '~> 4.2.1'
-  s.dependency 'SkyFloatingLabelTextField' '~> 3.6.0'
-  
+  s.dependency 'SkyFloatingLabelTextField', '~> 3.6.0'
+  s.dependency 'SDWebImage', '~> 4.4.6'
+
 end
