@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Kyriakos Mpiskinis' => 'mpiskinis@thinkdesquared.com' }
   s.license          = { :type => 'MIT', :text => "Copyright 2012"}
   s.ios.deployment_target = '9.0'
-  s.swift_version = "4.0"
-  
+
   # Source
   s.source = {
     :http => 'http://libraries.thinkdesquared.com/CosmoteID/1.2.0/CosmoteID.zip'
