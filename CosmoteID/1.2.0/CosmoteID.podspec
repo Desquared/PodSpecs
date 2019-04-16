@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Kyriakos Mpiskinis' => 'mpiskinis@thinkdesquared.com' }
   s.license          = { :type => 'MIT', :text => "Copyright 2012"}
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
 
   # Source
   s.source = {
