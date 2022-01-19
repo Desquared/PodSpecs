@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   # Source
   s.source = {
-    :http => 'https://gitlabms.ote.gr/cosmoteid/sdkzip/blob/a26e8c3e3ee82affd530c28069910c6689d5e137/3.3.14/CosmoteID.zip'
+    :http => 'https://gitlabms.ote.gr/cosmoteid/sdkzip/raw/a26e8c3e3ee82affd530c28069910c6689d5e137/3.3.14/CosmoteID.zip'
   }
   s.vendored_frameworks = 'CosmoteID/Frameworks/CosmoteID.framework'
   s.preserve_paths = 'CosmoteID/Frameworks/*.framework'
