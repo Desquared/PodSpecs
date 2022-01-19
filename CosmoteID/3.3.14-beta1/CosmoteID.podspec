@@ -20,11 +20,8 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   # Source
-  s.source = {
-    :http => 'https://gitlabms.ote.gr/cosmoteid/sdkzip/raw/a26e8c3e3ee82affd530c28069910c6689d5e137/3.3.14/CosmoteID.zip'
-  }
-  s.vendored_frameworks = 'CosmoteID/Frameworks/CosmoteID.framework'
-  s.preserve_paths = 'CosmoteID/Frameworks/*.framework'
+  s.source = { :git => "git@gitlabms.ote.gr:cosmoteid/sdkzip.git", :tag => "#{spec.version}" }
+  s.vendored_frameworks = 'CosmoteID.framework'
 
   # Dependencies
     s.dependency 'AlamofireObjectMapper', '~> 5.2.1'
