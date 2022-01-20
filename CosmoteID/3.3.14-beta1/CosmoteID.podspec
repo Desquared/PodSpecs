@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   # Source
-  s.source = { :git => "git@gitlabms.ote.gr:cosmoteid/sdkzip.git", :tag => "#{spec.version}" }
+  s.source = { :git => "https://gitlabms.ote.gr/cosmoteid/sdkzip.git", :tag => "#{spec.version}" }
   s.vendored_frameworks = 'CosmoteID.framework'
 
   # Dependencies
