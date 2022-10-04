@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # General Info
   s.name             = 'CosmoteID'
-  s.version          = '3.6.6-gitlabtest'
+  s.version          = '3.6.6-test'
   s.summary          = 'A short description of CosmoteID.'
   s.description      = "COSMOTE ID Description"
   s.homepage         = "http://cosmote.gr"
