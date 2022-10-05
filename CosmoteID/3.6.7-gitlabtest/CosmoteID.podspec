@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
 
   # General Info
   s.name             = 'CosmoteID'
-  s.version          = '3.6.7-gitlab'
+  s.version          = '3.6.7-gitlabtest'
   s.summary          = 'A short description of CosmoteID.'
   s.description      = "COSMOTE ID Description"
   s.homepage         = "http://cosmote.gr"
   s.author           = { 'Kyriakos Mpiskinis' => 'mpiskinis@thinkdesquared.com' }
   s.license          = { :type => 'MIT', :file => "Copyright 2012"}
   s.ios.deployment_target = '11.0'
-  s.swift_version = '4.2'
+  s.swift_version    = '5.0'
 
   # Source
   s.source = { :git => "https://gitlabms.ote.gr/cosmoteid/sdkzip.git", :tag => "#{s.version}" }
