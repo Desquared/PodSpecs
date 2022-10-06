@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # General Info
   s.name             = 'CosmoteID'
-  s.version          = '3.6.7-xcfr'
+  s.version          = '3.6.8-xc'
   s.summary          = 'A short description of CosmoteID.'
   s.description      = "COSMOTE ID Description"
   s.homepage         = "http://cosmote.gr"
@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
 
   # Source
   s.source = { :git => "https://gitlabms.ote.gr/cosmoteid/sdkzip.git", :tag => "#{s.version}" }
-  s.vendored_frameworks = 'CosmoteID.framework'
+  s.vendored_frameworks = ['CosmoteID.xcframework']
+  s.preserve_paths = ['CosmoteID.xcframework/']
 
   # Dependencies
     s.dependency 'AlamofireObjectMapper', '~> 5.2.1'
