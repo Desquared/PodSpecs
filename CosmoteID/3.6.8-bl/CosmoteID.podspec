@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # General Info
   s.name             = 'CosmoteID'
-  s.version          = '3.6.5-gitlab'
+  s.version          = '3.6.8-bl'
   s.summary          = 'A short description of CosmoteID.'
   s.description      = "COSMOTE ID Description"
   s.homepage         = "http://cosmote.gr"
@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
     s.dependency 'MBProgressHUD', '~> 1.2.0'
     s.dependency 'ReachabilitySwift', '~> 5'
     s.dependency 'KeychainAccess', '~> 4.2.1'
-    s.dependency 'SkyFloatingLabelTextField', '~> 3.8.0'
     s.dependency 'SDWebImage', '~> 5.10.0'
     s.dependency 'Localize-Swift', '~> 3.2.0'
     s.dependency 'IKEventSource', '~> 3.0.1'
