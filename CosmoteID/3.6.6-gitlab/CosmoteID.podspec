@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # Source
-  s.source_files = 'SDK/**/*.{h,m,swift}'
-  s.resources = ["SDK/**/*.xib", "SDK/**/*.xcassets", "SDK/**/*.der", "SDK/**/*.strings", "SDK/**/*.cer"]
+  s.source_files = 'CosmoteID/SDK/**/*.{h,m,swift}'
+  s.resources = ["CosmoteID/SDK/**/*.xib", "CosmoteID/SDK/**/*.xcassets", "SCosmoteID/DK/**/*.der", "CosmoteID/SDK/**/*.strings", "SDK/**/*.cer"]
   s.source = { :git => "https://gitlabms.ote.gr/cosmoteid/sdkzip.git", :tag => "#{s.version}" }
 
   # Dependencies
