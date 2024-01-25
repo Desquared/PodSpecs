@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
     s.swift_version = '4.2'
 
     #Source Code
-#    s.source_files = 'SDK/**/*.{h,m,swift}'
-#    s.resources = ["SDK/**/*.xib", "SDK/**/*.xcassets", "SDK/**/*.der", "SDK/**/*.strings", "SDK/**/*.cer"]
+     s.source_files = 'SDK/**/*.{h,m,swift}'
+     s.resources = ["SDK/**/*.xib", "SDK/**/*.xcassets", "SDK/**/*.der", "SDK/**/*.strings", "SDK/**/*.cer"]
 #    s.source = { :git => 'git@github.com:Desquared/COSMOTE-ID-iOS.git', :tag => s.version.to_s}
 
 #    Framework
