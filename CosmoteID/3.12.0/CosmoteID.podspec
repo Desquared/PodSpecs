@@ -20,17 +20,18 @@ Pod::Spec.new do |s|
     s.author                  = { 'Kyriakos Mpiskinis' => 'mpiskinis@thinkdesquared.com' }
     s.swift_version = '4.2'
 
-    #Source Code
-     s.source_files = 'SDK/**/*.{h,m,swift}'
-     s.resources = ["SDK/**/*.xib", "SDK/**/*.xcassets", "SDK/**/*.der", "SDK/**/*.strings", "SDK/**/*.cer"]
-#    s.source = { :git => 'git@github.com:Desquared/COSMOTE-ID-iOS.git', :tag => s.version.to_s}
 
-#    Framework
+
+  # Source
+    # s.source_files = 'SDK/**/*.{h,m,swift}'
+    # s.resources = ["SDK/**/*.xib", "SDK/**/*.xcassets", "SDK/**/*.der", "SDK/**/*.strings", "SDK/**/*.cer"]
+
     s.source = {
         :http => 'http://libraries.thinkdesquared.com/CosmoteID/3.12.0/CosmoteID.zip'
     }
-    s.vendored_frameworks = 'CosmoteID/Frameworks/CosmoteID.framework'
-    s.preserve_paths = 'CosmoteID/Frameworks/*.framework'
+    s.source_files = 'CosmoteID/Frameworks/CosmoteID/SDK/**/*.{h,m,swift}'
+    s.resources = ["CosmoteID/Frameworks/CosmoteID/SDK/**/*.xib", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.xcassets", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.der", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.strings", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.cer"]
+
 
     #Dependencies
     s.dependency 'AlamofireObjectMapper', '~> 5.2.1'
