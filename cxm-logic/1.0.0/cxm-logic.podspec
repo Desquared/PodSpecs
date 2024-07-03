@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
        s.source = {
            :http => 'http://libraries.thinkdesquared.com/Wave-CXM-Logic/1.0.0/WaveCXMLogic.zip'
        }
-       s.vendored_frameworks = 'WaveCXM/Frameworks/WaveCXMLogic.framework'
-       s.preserve_paths = 'WaveCXM/Frameworks/*.framework'
+       s.vendored_frameworks = 'WaveCXMLogic/Frameworks/WaveCXMLogic.framework'
+       s.preserve_paths = 'WaveCXMLogic/Frameworks/*.framework'
    
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
