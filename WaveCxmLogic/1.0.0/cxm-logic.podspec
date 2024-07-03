@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cxm-logic'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of cxm-logic.'
   s.swift_versions   = '5.0'
 # This description is used to generate tags and improve search results.
