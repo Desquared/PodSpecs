@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
       :http => 'http://libraries.thinkdesquared.com/Wave-CXM-UI/1.0.0/WaveCXMUI.zip'
   }
   s.source_files = 'WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.{h,m,swift}'
-   .resources = ["WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xib", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcassets", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.der", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.strings", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.cer"]
+  s.resources = ["WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xib", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcassets", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.der", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.strings", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.cer"]
   
   
   s.dependency 'cxm-logic'
