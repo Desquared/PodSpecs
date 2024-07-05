@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WaveCXM-UI'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of cxm-ui.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
 
   #    Framework
   s.source = {
-      :http => 'http://libraries.thinkdesquared.com/Wave-CXM-UI/1.0.0/WaveCXMUI.zip'
+      :http => 'http://libraries.thinkdesquared.com/Wave-CXM-UI/1.0.1/WaveCXMUI.zip'
   }
   s.source_files = 'WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.{h,m,swift}'
   s.resources = ["WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xib", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcassets", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.der", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.strings","WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcstrings",

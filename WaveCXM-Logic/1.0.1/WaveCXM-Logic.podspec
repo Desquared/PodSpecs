@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WaveCXM-Logic'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of cxm-logic.'
   s.swift_versions   = '5.0'
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
 
    #    Framework
        s.source = {
-           :http => 'http://libraries.thinkdesquared.com/Wave-CXM-Logic/1.0.0/WaveCXMLogic.zip'
+           :http => 'http://libraries.thinkdesquared.com/Wave-CXM-Logic/1.0.1/WaveCXMLogic.zip'
        }
   s.source_files = 'WaveCXMLogic/Frameworks/WaveCXMLogic/cxm-logic/**/*.{h,m,swift}'
   s.resources = ["WaveCXMLogic/Frameworks/WaveCXMLogic/cxm-logic/**/*.xib", "WaveCXMLogic/Frameworks/WaveCXMLogic/cxm-logic/**/*.xcassets", "WaveCXMLogic/Frameworks/WaveCXMLogic/cxm-logic/**/*.der", "WaveCXMLogic/Frameworks/WaveCXMLogic/cxm-logic/**/*.strings", "WaveCXMLogic/Frameworks/WaveCXMLogic/cxm-logic/**/*.cer"]
