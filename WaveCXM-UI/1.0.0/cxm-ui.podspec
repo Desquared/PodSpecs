@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'cxm-ui'
+  s.name             = 'WaveCXM-UI'
   s.version          = '1.0.0'
   s.summary          = 'A short description of cxm-ui.'
 

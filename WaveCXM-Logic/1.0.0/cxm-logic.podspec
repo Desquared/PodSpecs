@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'cxm-logic'
+  s.name             = 'WaveCXM-Logic'
   s.version          = '1.0.0'
   s.summary          = 'A short description of cxm-logic.'
   s.swift_versions   = '5.0'
