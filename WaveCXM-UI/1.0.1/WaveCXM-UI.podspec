@@ -47,7 +47,7 @@ TODO: Add long description of the pod here.
   "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.cer"]
   
   
-  s.dependency 'cxm-logic'
+  s.dependency 'WaveCXM-Logic'
   s.dependency 'Atributika'
   s.dependency 'AtributikaViews'
   s.dependency 'URLImage'
