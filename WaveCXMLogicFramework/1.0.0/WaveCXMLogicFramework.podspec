@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'WaveCXM_Logic'
+  s.name             = 'WaveCXMLogicFramework'
   s.version          = '1.0.0'
   s.summary          = 'A short description of cxm-logic.'
   s.swift_versions   = '5.0'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '15.0'
   
   # For exporting into a framework Comment the following 3 lines and uncomment the lines bellow Framework
-  s.source              = { :http => 'http://libraries.thinkdesquared.com/WaveCXMLogicFramework/WaveCXMLogicFramework.xcframework' }
+  s.source              = { :http => 'http://libraries.thinkdesquared.com/WaveCXMLogicFramework/WaveCXMLogicFramework.zip'}
   s.preserve_paths      = 'WaveCXMLogicFramework.xcframework'
   s.vendored_frameworks = 'WaveCXMLogicFramework.xcframework'
 
