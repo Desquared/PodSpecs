@@ -32,7 +32,7 @@ Wave CXM is modular and scalable, fueling your growth through customer satisfact
   # For exporting into a framework Comment the following 3 lines and uncomment the lines bellow Framework
 #  s.source           = { :git => 'https://github.com/Desquared/Wave-CXM-iOS.git', :tag => s.version.to_s }
 #  s.source_files = 'cxm-ui/**/*.swift'
-#  s.resources = ['cxm-ui/**/*.xcassets', 'cxm-ui/**/*.ttf', 'cxm-ui/**/*.xcstrings']
+  s.resources = ['cxm-ui/**/*.xcassets', 'cxm-ui/**/*.ttf', 'cxm-ui/**/*.xcstrings']
 
   #    Framework
   s.source = {
