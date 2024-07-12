@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '15.0'
   
   # For exporting into a framework Comment the following 3 lines and uncomment the lines bellow Framework
-  s.source              = { :http => 'http://libraries.thinkdesquared.com/WaveCXMLogicFramework/WaveCXMLogicFramework.zip'}
-  s.preserve_paths      = 'WaveCXMLogicFramework.xcframework'
-  s.vendored_frameworks = 'WaveCXMLogicFramework.xcframework'
+   s.source              = { :http => 'http://libraries.thinkdesquared.com/cxm_logic/1.0.1/cxm_logic.zip' }
+  s.preserve_paths      = 'cxm_logic.xcframework'
+  s.vendored_frameworks = 'cxm_logic.xcframework'
 
 
   # Framework
