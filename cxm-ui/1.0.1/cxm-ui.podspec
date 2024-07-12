@@ -53,8 +53,6 @@ s.resource_bundles = {
   s.dependency 'MaterialComponents'
   s.dependency 'UIImageColors'
   
-end
-
 post_install do |installer|
     installer.generated_projects.each do |project|
         project.targets.each do |target|
@@ -64,3 +62,6 @@ post_install do |installer|
         end
     end
 end
+end
+
+
