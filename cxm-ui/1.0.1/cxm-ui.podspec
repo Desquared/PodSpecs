@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'cxm-ui'
   s.version          = '1.0.1'
-  s.summary          = 'A short description of cxm-ui.'
+  s.summary = 'cxm-ui is a comprehensive experience management platform for modern enterprises.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The experience management platform for modern enterprises
+Wave CXM is modular and scalable, fueling your growth through customer satisfaction, loyalty and advocacy.
                        DESC
 
-  s.homepage         = 'https://www.thinkdesquared.com/'
+  s.homepage         = 'https://www.wavecxm.com/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Aristotelis Anthopoulos' => 'anthopoulos@thinkdesquared.com' }
-#  s.source           = { :git => 'https://github.com/Desquared/Wave-CXM-iOS.git', :tag => s.version.to_s }
+  s.author           = { 'Desquared S.A' => 'support@thinkdesquared.com' }
+  s.license = { :type => 'Proprietary', :text => 'This is proprietary software.' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
-
+  # For exporting into a framework Comment the following 3 lines and uncomment the lines bellow Framework
+#  s.source           = { :git => 'https://github.com/Desquared/Wave-CXM-iOS.git', :tag => s.version.to_s }
 #  s.source_files = 'cxm-ui/**/*.swift'
-#  
 #  s.resources = ['cxm-ui/**/*.xcassets', 'cxm-ui/**/*.ttf', 'cxm-ui/**/*.xcstrings']
-
-  s.resource_bundles = {
-  'bundle' => ['cxm-ui/Assets/*']
-  }
 
   #    Framework
   s.source = {
@@ -45,8 +41,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.{h,m,swift}'
   s.resources = ["WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xib", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcassets", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.der", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.strings","WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcstrings",
   "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.cer"]
-  
-  
+
+s.resource_bundles = {
+'bundle' => ['cxm-ui/Assets/*']
+}
   s.dependency 'cxm-logic'
   s.dependency 'Atributika'
   s.dependency 'AtributikaViews'
@@ -55,4 +53,14 @@ TODO: Add long description of the pod here.
   s.dependency 'MaterialComponents'
   s.dependency 'UIImageColors'
   
+end
+
+post_install do |installer|
+    installer.generated_projects.each do |project|
+        project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+            end
+        end
+    end
 end
