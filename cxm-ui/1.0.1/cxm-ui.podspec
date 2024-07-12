@@ -39,7 +39,7 @@ Wave CXM is modular and scalable, fueling your growth through customer satisfact
       :http => 'http://libraries.thinkdesquared.com/Wave-CXM-UI/1.0.1/WaveCXMUI.zip'
   }
   s.source_files = 'WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.{h,m,swift}'
-  s.resources = ["WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xib", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcassets", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.der", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.strings","WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcstrings",
+  s.resources = ["WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xib", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcassets", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.der", "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.strings","WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.xcstrings","WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.ttf",
   "WaveCXMUI/Frameworks/WaveCXMUI/cxm-ui/**/*.cer"]
 
 s.resource_bundles = {
@@ -54,5 +54,3 @@ s.resource_bundles = {
   s.dependency 'UIImageColors'
   
 end
-
-
