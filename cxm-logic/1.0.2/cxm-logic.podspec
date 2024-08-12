@@ -30,7 +30,7 @@ Wave CXM is modular and scalable, fueling your growth through customer satisfact
   s.ios.deployment_target = '15.0'
   
   # For exporting into a framework Comment the following 3 lines and uncomment the lines bellow Framework
-   s.source              = { :http => 'http://libraries.thinkdesquared.com/Wave-CXM-Logic/1.0.1/cxm_logic.zip' }
+   s.source              = { :http => 'http://libraries.thinkdesquared.com/Wave-CXM-Logic/1.0.2/cxm_logic.zip' }
   s.preserve_paths      = 'cxm_logic.xcframework'
   s.vendored_frameworks = 'cxm_logic.xcframework'
 
