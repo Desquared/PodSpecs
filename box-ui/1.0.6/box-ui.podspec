@@ -40,9 +40,12 @@ TODO: Add long description of the pod here.
   s.source = {
         :http => 'http://libraries.thinkdesquared.com/Box-UI/1.0.6/BoxUI.zip'
     }
-    s.source_files = 'box-ui/**/*.{h,m,swift}'
-    s.resources = ["box-ui/**/*.xib", "box-ui/**/*.xcassets", "box-ui/**/*.der", "box-ui/cxm-ui/**/*.strings","box-ui/**/*.xcstrings","box-ui/**/*.ttf",
-    "box-ui/**/*.cer"]
+    s.source_files = 'BoxUI/Frameworks/BoxUI/box-ui/**/*.{h,m,swift}'
+    s.resources = ["BoxUI/Frameworks/BoxUI/box-ui/**/*.xib", "BoxUI/Frameworks/BoxUI/box-ui/**/*.xcassets", "BoxUI/Frameworks/BoxUI/box-ui/**/*.der", "BoxUI/Frameworks/BoxUI/box-ui/**/*.strings","BoxUI/Frameworks/BoxUI/box-ui/**/*.xcstrings","BoxUI/Frameworks/BoxUI/box-ui/**/*.ttf",
+    "BoxUI/Frameworks/BoxUI/box-ui/**/*.cer"]
+    s.resource_bundles = {
+    'bundle' => ['box-ui/Assets/*']
+    }
 
   s.dependency 'dsquikit'
   s.dependency 'boxkmm'
