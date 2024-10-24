@@ -48,7 +48,7 @@ TODO: Add long description of the pod here.
     }
   s.source = { :git => 'https://github.com/Desquared/PodSpecs.git' }
   s.source = { :git => 'https://github.com/CocoaPods/Specs.git' }
-  s.dependency 'dsquikit', :git => 'git@github.com:Desquared/DSQUIKit-iOS', :commit => '48ac2211'
+  s.dependency 'dsquikit'
   s.dependency 'boxkmm'
   s.dependency 'Atributika'
   s.dependency 'AtributikaViews'
