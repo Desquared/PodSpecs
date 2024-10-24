@@ -46,8 +46,7 @@ TODO: Add long description of the pod here.
     s.resource_bundles = {
     'bundle' => ['box-ui/Assets/*']
     }
-  s.source = { :git => 'https://github.com/Desquared/PodSpecs.git' }
-  s.source = { :git => 'https://github.com/CocoaPods/Specs.git' }
+
   s.dependency 'dsquikit'
   s.dependency 'boxkmm'
   s.dependency 'Atributika'
