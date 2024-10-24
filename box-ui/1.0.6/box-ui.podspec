@@ -47,7 +47,7 @@ TODO: Add long description of the pod here.
     'bundle' => ['box-ui/Assets/*']
     }
 
-  s.dependency 'dsquikit'
+  s.dependency 'dsquikit', :git => 'git@github.com:Desquared/DSQUIKit-iOS', :commit => '48ac2211'
   s.dependency 'boxkmm'
   s.dependency 'Atributika'
   s.dependency 'AtributikaViews'
