@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Desquared/BOX-Promos-iOS', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '15.0'
 
 #  s.source_files = 'box-ui/**/*.{h,m,swift,xib}'
 #  s.resources = ['box-ui/Assets/*.{xcassets}', 'box-ui/Assets/Fonts/*.{ttf}']
