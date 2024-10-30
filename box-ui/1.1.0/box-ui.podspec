@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 #  }
   # For exporting into a framework uncomment these lines
   s.source = {
-        :http => 'http://libraries.thinkdesquared.com/Box-UI/1.0.6/BoxUI.zip'
+        :http => 'http://libraries.thinkdesquared.com/Box-UI/1.1.0/BoxUI.zip'
     }
     s.source_files = 'BoxUI/Frameworks/BoxUI/box-ui/**/*.{h,m,swift}'
     s.resources = ["BoxUI/Frameworks/BoxUI/box-ui/**/*.xib", "BoxUI/Frameworks/BoxUI/box-ui/**/*.xcassets", "BoxUI/Frameworks/BoxUI/box-ui/**/*.der", "BoxUI/Frameworks/BoxUI/box-ui/**/*.strings","BoxUI/Frameworks/BoxUI/box-ui/**/*.xcstrings","BoxUI/Frameworks/BoxUI/box-ui/**/*.ttf",
