@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # General Info
   s.name             = 'CosmoteID'
-  s.version          = '3.14.1'
+  s.version          = '3.14.2'
   s.summary          = 'Cosmote ID is a comprehensive library handling sign-in, login, and registration flows for various Cosmote products. This library streamlines user authentication processes, providing a seamless and secure experience for Cosmote users.'
   s.description             = "Key Features:"+
     "\n1) Unified Authentication: Centralizes sign-in, login, and register functionalities."+
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   # Source
   s.source = {
-    :http => 'http://libraries.thinkdesquared.com/CosmoteID/3.14.1/CosmoteID.zip'
+    :http => 'http://libraries.thinkdesquared.com/CosmoteID/3.14.2/CosmoteID.zip'
   }
   s.source_files = 'CosmoteID/Frameworks/CosmoteID/SDK/**/*.{h,m,swift}'
   s.resources = ["CosmoteID/Frameworks/CosmoteID/SDK/**/*.xib", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.xcassets", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.der", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.strings", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.cer"]
