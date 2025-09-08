@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   # Source
   s.source = {
-    :http => 'http://libraries.thinkdesquared.com/CosmoteID/3.14.2/CosmoteID.zip'
+    :http => 'http://libraries.thinkdesquared.com/CosmoteID/3.14.3/CosmoteID.zip'
   }
   s.source_files = 'CosmoteID/Frameworks/CosmoteID/SDK/**/*.{h,m,swift}'
   s.resources = ["CosmoteID/Frameworks/CosmoteID/SDK/**/*.xib", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.xcassets", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.der", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.strings", "CosmoteID/Frameworks/CosmoteID/SDK/**/*.cer"]
