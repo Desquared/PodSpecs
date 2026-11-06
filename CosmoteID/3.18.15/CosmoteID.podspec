@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
     s.dependency 'KeychainAccess', '~> 4.2.2'
     s.dependency 'SkyFloatingLabelTextField', '~> 4.0.0'
     s.dependency 'Localize-Swift', '~> 3.2.0'
-    s.dependency 'JOSESwift', '~> 2.4.0'
+    s.dependency 'JOSESwift', '~> 3.0.0'
     s.dependency 'CryptoSwift', '~> 1.8.0'
     s.dependency 'MGSwipeTableCell', '~> 1.6.14'
     s.dependency 'LDSwiftEventSource', '~> 3.3'
